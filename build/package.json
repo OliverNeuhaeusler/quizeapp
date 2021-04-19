@@ -1,0 +1,24 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "Das ist eine tolle Quizapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverNeuhaeusler/quizeapp.git"
+  },
+  "author": "Oliver Neuhäusler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliverNeuhaeusler/quizeapp/issues"
+  },
+  "homepage": "https://github.com/OliverNeuhaeusler/quizeapp#readme",
+  "devDependencies": {
+    "snowpack": "^3.3.3"
+  }
+}
