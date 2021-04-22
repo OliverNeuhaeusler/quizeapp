@@ -1,0 +1,72 @@
+:root {
+  --hauptfarbe: goldenrod;
+  --hauptfarbe-dark: gold;
+  --zweitfarbe: orange;
+  --zweitfarbe-light: lightgoldenrodyellow;
+  --clr-base: lightgrey;
+  --headline: grey;
+  --text: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+body {
+  background: var(--clr-base);
+  color: black;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  width: 100vw;
+}
+
+main {
+  padding-bottom: 3rem;
+}
+
+ul[class] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul[class] li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 5rem;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 6rem;
+  align-items: center;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border: groove gold 10px;
+  border-radius: 30px;
+  background: var(--zweitfarbe-light);
+  z-index: 30;
+}
+
+.title {
+  font-family: fantasy;
+  color: var(--hauptfarbe);
+}

@@ -1,0 +1,35 @@
+:root {
+  --hauptfarbe: goldenrod;
+  --hauptfarbe-dark: gold;
+  --zweitfarbe: orange;
+  --zweitfarbe-light: lightgoldenrodyellow;
+  --clr-base: lightgrey;
+  --headline: grey;
+  --text: white;
+}
+
+.navigation {
+  background: var(--hauptfarbe);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 30;
+  height: 6rem;
+}
+
+.navigation__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation__item a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.navigation__item--active {
+  border: 3px groove var(--hauptfarbe-dark);
+  border-radius: 100vw;
+  padding: 0.2rem 1rem 0.2rem;
+}

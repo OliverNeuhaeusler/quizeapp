@@ -1,0 +1,20 @@
+:root {
+  --hauptfarbe: goldenrod;
+  --hauptfarbe-dark: gold;
+  --zweitfarbe: orange;
+  --zweitfarbe-light: lightgoldenrodyellow;
+  --clr-base: lightgrey;
+  --headline: grey;
+  --text: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.card__button:hover {
+  transform: scale(1.3);
+  background: var(--clr-base);
+}

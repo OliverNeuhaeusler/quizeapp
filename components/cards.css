@@ -1,0 +1,70 @@
+:root {
+  --hauptfarbe: goldenrod;
+  --hauptfarbe-dark: gold;
+  --zweitfarbe: orange;
+  --zweitfarbe-light: lightgoldenrodyellow;
+  --clr-base: lightgrey;
+  --headline: grey;
+  --text: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  background: var(--headline);
+  flex-direction: column;
+  align-items: center;
+  border: 5px groove goldenrod;
+  border-radius: 10px;
+  margin-top: 130px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card__title h3 {
+  margin-top: 2.2rem;
+  color: var(--text);
+  font-size: 2rem;
+}
+
+.card__question {
+  font-size: 2.5rem;
+  margin: 1.5rem;
+}
+
+.card__bookmark {
+  position: absolute;
+  right: 50px;
+  margin-top: -15px;
+}
+
+.card__button {
+  font-size: 2.5rem;
+  margin-bottom: 1.3rem;
+  background: var(--hauptfarbe);
+  color: var(--text);
+  transition: 0.8s ease-in;
+}
+
+.card__answer {
+  font-size: 2rem;
+}
+
+.card__tags {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card__tags li {
+  padding: 0.8rem;
+  border: 2px groove lightgoldenrodyellow;
+  border-radius: 100vh;
+  margin: 2rem;
+}
