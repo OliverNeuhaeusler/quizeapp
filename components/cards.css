@@ -21,10 +21,9 @@
   align-items: center;
   border: 5px groove goldenrod;
   border-radius: 10px;
-  margin-top: 130px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 20px;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .card__title h3 {
@@ -34,18 +33,18 @@
 }
 
 .card__question {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 1.5rem;
 }
 
 .card__bookmark {
   position: absolute;
-  right: 50px;
+  right: 10px;
   margin-top: -15px;
 }
 
 .card__button {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1.3rem;
   background: var(--hauptfarbe);
   color: var(--text);
@@ -53,7 +52,8 @@
 }
 
 .card__answer {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 2rem;
 }
 
 .card__tags {
