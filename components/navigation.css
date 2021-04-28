@@ -25,11 +25,12 @@
 
 .navigation__item a {
   text-decoration: none;
-  color: var(--text);
+  opacity: 0.5;
 }
 
 .navigation__item--active {
   border: 3px groove var(--hauptfarbe-dark);
   border-radius: 100vw;
   padding: 0.2rem 1rem 0.2rem;
+  opacity: 1;
 }
